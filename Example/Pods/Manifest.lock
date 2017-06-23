@@ -1,0 +1,30 @@
+PODS:
+  - SimpleAFNetworking (0.0.1):
+    - SimpleAFNetworking/NSURLSession (= 0.0.1)
+    - SimpleAFNetworking/Reachability (= 0.0.1)
+    - SimpleAFNetworking/Security (= 0.0.1)
+    - SimpleAFNetworking/Serialization (= 0.0.1)
+    - SimpleAFNetworking/UIKit (= 0.0.1)
+  - SimpleAFNetworking/NSURLSession (0.0.1):
+    - SimpleAFNetworking/Reachability
+    - SimpleAFNetworking/Security
+    - SimpleAFNetworking/Serialization
+  - SimpleAFNetworking/Reachability (0.0.1)
+  - SimpleAFNetworking/Security (0.0.1)
+  - SimpleAFNetworking/Serialization (0.0.1)
+  - SimpleAFNetworking/UIKit (0.0.1):
+    - SimpleAFNetworking/NSURLSession
+
+DEPENDENCIES:
+  - SimpleAFNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleAFNetworking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleAFNetworking: ad98195052c4bc29a65a190fc5e1e34d051a9a45
+
+PODFILE CHECKSUM: c4e11450fe58b9162092d01ec0e920281a2c152b
+
+COCOAPODS: 1.2.1

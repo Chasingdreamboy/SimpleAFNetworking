@@ -1,0 +1,6 @@
+framework module SimpleAFNetworking {
+  umbrella header "SimpleAFNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
