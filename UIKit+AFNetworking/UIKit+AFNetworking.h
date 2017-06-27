@@ -36,7 +36,7 @@
 
 //    #import "UIActivityIndicatorView+AFNetworking.h"
     #import "UIButton+AFNetworking.h"
-    #import "UIImageView+AFNetworking.h"
+//    #import "UIImageView+AFNetworking.h"
 //    #import "UIProgressView+AFNetworking.h"
 #endif /* _UIKIT_AFNETWORKING_ */
 #endif
