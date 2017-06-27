@@ -25,7 +25,6 @@
 
 #if TARGET_OS_IOS || TARGET_OS_TV
 
-#import "UIImageView+AFNetworking.h"
 #import "AFImageDownloader.h"
 
 @interface UIButton (_AFNetworking)
