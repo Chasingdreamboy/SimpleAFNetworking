@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'SimpleAFNetworking'
-  s.version  = '0.0.2'
+  s.version  = '0.0.4'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS networking framework.'
   s.homepage = 'https://github.com/Chasingdreamboy/SimpleAFNetworking'
@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   
   s.public_header_files = 'AFNetworking/AFNetworking.h'
   s.source_files = 'AFNetworking/AFNetworking.h'
+  s.source_files = 'AFNetworking/**/*'
+  s.xcconfig = {'GENERATE_DEBUG_SYMBOLS' => 'NO'}
   
   pch_AF = <<-EOS
 #ifndef TARGET_OS_IOS

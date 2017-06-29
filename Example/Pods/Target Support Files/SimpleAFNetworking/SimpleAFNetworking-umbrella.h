@@ -20,7 +20,6 @@
 #import "AFAutoPurgingImageCache.h"
 #import "AFImageDownloader.h"
 #import "UIButton+AFNetworking.h"
-#import "UIImageView+AFNetworking.h"
 #import "UIKit+AFNetworking.h"
 
 FOUNDATION_EXPORT double SimpleAFNetworkingVersionNumber;
