@@ -9,9 +9,8 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/Chasingdreamboy/SimpleAFNetworking.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
-  s.public_header_files = 'AFNetworking/AFNetworking.h'
-  s.source_files = 'AFNetworking/AFNetworking.h'
-  s.source_files = 'AFNetworking/**/*'
+  s.public_header_files = 'SimpleAFNetworking/AFNetworking.h'
+  s.source_files = 'SimpleAFNetworking/AFNetworking.h'
   s.xcconfig = {'GENERATE_DEBUG_SYMBOLS' => 'NO'}
   
   pch_AF = <<-EOS
@@ -33,16 +32,16 @@ EOS
   s.tvos.deployment_target = '9.0'
   
   s.subspec 'Serialization' do |ss|
-    ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
+    ss.source_files = 'SimpleAFNetworking/AFURL{Request,Response}Serialization.{h,m}'
+    ss.public_header_files = 'SimpleAFNetworking/AFURL{Request,Response}Serialization.h'
     ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
     ss.osx.frameworks = 'CoreServices'
   end
 
   s.subspec 'Security' do |ss|
-    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
+    ss.source_files = 'SimpleAFNetworking/AFSecurityPolicy.{h,m}'
+    ss.public_header_files = 'SimpleAFNetworking/AFSecurityPolicy.h'
     ss.frameworks = 'Security'
   end
 
@@ -51,8 +50,8 @@ EOS
     ss.osx.deployment_target = '10.9'
     ss.tvos.deployment_target = '9.0'
 
-    ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
+    ss.source_files = 'SimpleAFNetworking/AFNetworkReachabilityManager.{h,m}'
+    ss.public_header_files = 'SimpleAFNetworking/AFNetworkReachabilityManager.h'
 
     ss.frameworks = 'SystemConfiguration'
   end
@@ -64,8 +63,8 @@ EOS
     ss.tvos.dependency 'SimpleAFNetworking/Reachability'
     ss.dependency 'SimpleAFNetworking/Security'
 
-    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}'
-    ss.public_header_files = 'AFNetworking/AF{URL,HTTP}SessionManager.h'
+    ss.source_files = 'SimpleAFNetworking/AF{URL,HTTP}SessionManager.{h,m}'
+    ss.public_header_files = 'SimpleAFNetworking/AF{URL,HTTP}SessionManager.h'
   end
 
   s.subspec 'UIKit' do |ss|
