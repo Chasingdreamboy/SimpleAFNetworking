@@ -1,18 +1,18 @@
 PODS:
-  - SimpleAFNetworking (0.0.3):
-    - SimpleAFNetworking/NSURLSession (= 0.0.3)
-    - SimpleAFNetworking/Reachability (= 0.0.3)
-    - SimpleAFNetworking/Security (= 0.0.3)
-    - SimpleAFNetworking/Serialization (= 0.0.3)
-    - SimpleAFNetworking/UIKit (= 0.0.3)
-  - SimpleAFNetworking/NSURLSession (0.0.3):
+  - SimpleAFNetworking (0.0.4):
+    - SimpleAFNetworking/NSURLSession (= 0.0.4)
+    - SimpleAFNetworking/Reachability (= 0.0.4)
+    - SimpleAFNetworking/Security (= 0.0.4)
+    - SimpleAFNetworking/Serialization (= 0.0.4)
+    - SimpleAFNetworking/UIKit (= 0.0.4)
+  - SimpleAFNetworking/NSURLSession (0.0.4):
     - SimpleAFNetworking/Reachability
     - SimpleAFNetworking/Security
     - SimpleAFNetworking/Serialization
-  - SimpleAFNetworking/Reachability (0.0.3)
-  - SimpleAFNetworking/Security (0.0.3)
-  - SimpleAFNetworking/Serialization (0.0.3)
-  - SimpleAFNetworking/UIKit (0.0.3):
+  - SimpleAFNetworking/Reachability (0.0.4)
+  - SimpleAFNetworking/Security (0.0.4)
+  - SimpleAFNetworking/Serialization (0.0.4)
+  - SimpleAFNetworking/UIKit (0.0.4):
     - SimpleAFNetworking/NSURLSession
 
 DEPENDENCIES:
@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SimpleAFNetworking: d09fc50da6676b82144cd6cba3974c26be19b533
+  SimpleAFNetworking: 097f95e7875a255e9100ff4619652a4e4edbb200
 
 PODFILE CHECKSUM: c4e11450fe58b9162092d01ec0e920281a2c152b
 

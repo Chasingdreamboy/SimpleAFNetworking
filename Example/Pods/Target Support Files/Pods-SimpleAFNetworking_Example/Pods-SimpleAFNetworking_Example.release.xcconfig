@@ -1,5 +1,6 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SimpleAFNetworking"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+GENERATE_DEBUG_SYMBOLS = NO
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SimpleAFNetworking/SimpleAFNetworking.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -framework "SimpleAFNetworking"
